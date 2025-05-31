@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpongeBob SquarePants</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts: Fredoka -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;800&display=swap" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: linear-gradient(to bottom right, #fffde7, #fff8e1);
+            color: #3e2723;
+            overflow-x: hidden;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            background: linear-gradient(to right, #ffeb3b, #ffd600);
+            padding: 20px;
+            border-bottom: 4px solid #fdd835;
+        }
+
+        .header-title img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .header-title h1 {
+            margin: 0;
+            font-weight: 800;
+            font-size: 2.5rem;
+            color: #f57f17;
+        }
+
+        .nav {
+            background-color: #ffe082;
+            padding: 10px;
+        }
+
+        .nav-link {
+            color: #4e342e;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .nav-link:hover {
+            color: #d84315;
+        }
+
+        .section-title {
+            color: #f57f17;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .slogan {
+            text-align: center;
+            background-color: #ffee58;
+            padding: 30px;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #f57f17;
+            margin-top: 40px;
+        }
+    </style>
+
+</head>
+
+<>
+
+    <!-- Header dengan Logo -->
+    <div class="header-title">
+        <img src="img/32_Famous_Fonts_You_Need_To_Download_Immediately-removebg-preview.png" alt="SpongeBob Logo" />
+        <h1>SpongeBob SquarePants</h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav justify-content-center">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#Ekspresi" class="nav-link">Ekspresi</a>
+        <a href="#portofolio" class="nav-link">My Stuff</a>
+        <a href="#blog" class="nav-link">Pengalaman</a>
+
+    </nav>
+
+    <!-- Hero / Home -->
+    <div class="container py-5" id="home">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h2 class="mb-3">Halo!</h2>
+                <h3 class="mb-3">Aku SpongeBob!</h3>
+                <p>Aku tinggal di Bikini Bottom dan bekerja di Krusty Krab! Aku memiliki banyak teman, aku sangat suka memasak krabby-patty </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/profile.jpeg" class="img-fluid" alt="SpongeBob"
+                    style="height: 300px; width: 300px; object-fit: cover;" />
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="container p-5" style="background-color: #ffee58;" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>SpongeBob SquarePants adalah spons laut yang tinggal di Bikini Bottom. Aku bekerja sebagai koki di Krusty
+            Krab dan sangat suka membuat Krabby Patty. Aku selalu semangat, ceria, dan suka bertualang!</p>
+    </div>
+
+
+    <!-- REACTION -->
+    <div id="Ekspresi" class="container py-4">
+        <div class="container p-5" style="background-color: #fffde7;" id="about">
+            <h2 class="section-title"> Ekspresi Spongebob</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm justify-content-center" style="height: 250px; width: 250px;">
+                        <img src="img/happy.jpeg" class="card-img-top m-4" alt="SpongeBob Bahagia"
+                            style="height: 200px; width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">HAHAHA</h5>
+                            <p class="card-text">Spongebob senang membully Squidward wkwk</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm justify-content-center" style="height: 250px; width: 250px;">
+                        <img src="img/confues.jpeg" class="card-img-top m-4" alt="SpongeBob Bingung"
+                            style="height: 200px; width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">hah...</h5>
+                            <p class="card-text">Spongebob Bingung dan terheran heran</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm justify-content-center" style="height: 250px; width: 250px;">
+                        <img src="img/nangis.jpeg" class="card-img-top m-4" alt="SpongeBob Sedih"
+                            style="height: 200px; width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">huhu</h5>
+                            <p class="card-text">sedih karena gery ga pulang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm justify-content-center" style="height: 250px; width: 250px;">
+                        <img src="img/malu.jpeg" class="card-img-top m-4" alt="SpongeBob Lucu"
+                            style="height: 200px; width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">hehe</h5>
+                            <p class="card-text">kiyowo</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- My Stuff -->
+        <div class="container mt-4" id="portofolio">
+            <h2 class="section-title">My Stuff</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/working fool.jpeg" class="card-img-top" alt="Krusty Krab">
+                        <div class="card-body">
+                            <h5 class="card-title">Pekerjaan</h5>
+                            <p class="card-text">Koki di Krusty Krab, pembuat Krabby Patty terbaik di seluruh Bikini
+                                Bottom!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/ubur.jpeg" class="card-img-top" alt="Jellyfishing">
+                        <div class="card-body">
+                            <h5 class="card-title">Hobi</h5>
+                            <p class="card-text">Menangkap ubur-ubur bersama Gery di Jellyfish Fields!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/teman.jpeg" class="card-img-top" alt="Patrick Star">
+                        <div class="card-body">
+                            <h5 class="card-title">Teman Dekat</h5>
+                            <p class="card-text">Patrick Star dan Squidward! Sahabat sejati yang selalu ikut dalam
+                                petualangan gila!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pengalaman -->
+        <div class="container mt-5" id="blog">
+            <h2 class="section-title">Pengalaman</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Tersesat di Hutan Kelp</h5>
+                    <p class="card-text">Aku pernah tersesat di Hutan Kelp dan bertemu makhluk-makhluk aneh. Tapi
+                        akhirnya pulang juga berkat Patrick!</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Bertemu Bajak Laut</h5>
+                    <p class="card-text">Waktu ikut lomba masak, aku bertemu bajak laut Flying Dutchman. Dia suka banget
+                        Krabby Patty!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slogan -->
+        <div class="slogan">
+            “I'm ready! I'm ready!”
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
